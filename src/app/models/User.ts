@@ -2,7 +2,7 @@ export interface User {
   firstName: string,
   lastName: string,
   //? optional
-  email?: string,
+  email: string,
   image?:string,
   isActive?:boolean,
   balance?:number,
